@@ -16,15 +16,15 @@ namespace zad3
 
             for (int i = 1; i <= wysokosc; i++)
             {
-                int obescnaSzerokość = 2 * i - 1;
-                int liczbaSpacjiPrzedPlusem = (maxSzerokosc - obescnaSzerokość) / 2;
+                int obecnaSzerokosc = 2 * i - 1;
+                int liczbaSpacjiPrzedPlusem = (maxSzerokosc - obecnaSzerokosc) / 2;
 
                 for (int j = 0; j < liczbaSpacjiPrzedPlusem; j++)
                 {
                     Console.Write(" ");
                 }
 
-                for (int j = 0; j < obescnaSzerokość; j++)
+                for (int j = 0; j < obecnaSzerokosc; j++)
                 {
                     Console.Write("+");
                 }
